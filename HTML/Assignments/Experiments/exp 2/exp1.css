@@ -1,0 +1,13 @@
+div{
+    height:100px;
+    width: 100px;
+    background-color: pink;
+    display: inline-block;
+    border-style: solid black;
+}
+#container{
+    background-color: antiquewhite;
+    height: 500px;
+    width: 1000px;
+    border-style: solid black;
+}
