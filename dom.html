@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>API Fetch Demo</title>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  th {
+    background: #f4f4f4;
+  }
+  #spinner {
+    display: none;
+    margin: 10px 0;
+  }
+  button:disabled {
+    opacity: 0.5;
+  }
+</style>
+</head>
+<body>
+
+<h2>Task 1: Fetch and Display User Data</h2>
+<button id="refresh-btn">Refresh</button>
+<div id="spinner">Loading users...</div>
+<table id="users-table">
+  <thead>
+    <tr><th>Name</th><th>Email</th><th>City</th></tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<hr />
+
+<h2>Task 2: Random Joke Generator</h2>
+<div id="joke">
+  <p id="setup"></p>
+  <p id="punchline"></p>
+</div>
+<button id="next-joke-btn">Next Joke</button>
+
+<script src="script.js"></script>
+</body>
+</html>
